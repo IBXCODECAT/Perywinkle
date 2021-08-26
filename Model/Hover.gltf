@@ -1,0 +1,172 @@
+{
+    "asset": {
+        "copyright": "2020 (c) Adobe Inc.",
+        "generator": "Adobe Dimension - 20b96ed1944f99fd310aada6a21defae413bc238",
+        "version": "2.0"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 60645,
+            "type": "VEC3",
+            "max": [
+                0.1315382570028305,
+                0.23211795091629029,
+                0.1632046401500702
+            ],
+            "min": [
+                -0.13154324889183045,
+                0.05171382799744606,
+                -0.16345885396003724
+            ]
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 60645,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 60645,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5125,
+            "count": 359070,
+            "type": "SCALAR",
+            "max": [
+                60644.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 727740,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 727740,
+            "byteLength": 727740,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1455480,
+            "byteLength": 485160,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 1940640,
+            "byteLength": 1436280,
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 3376920,
+            "uri": "Hover_binary.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "perspective": {
+                "znear": 0.000010000000656873454,
+                "yfov": 0.6024156808853149,
+                "zfar": 2.0,
+                "aspectRatio": 1.3333333730697632
+            },
+            "type": "perspective",
+            "name": "render_camera"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.25
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.0
+            },
+            "alphaMode": "BLEND",
+            "name": "Water",
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Splash",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 3,
+                    "material": 0
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "translation": [
+                0.5,
+                0.29999998211860659,
+                0.5
+            ],
+            "rotation": [
+                -0.12059047073125839,
+                0.379409521818161,
+                0.04995020851492882,
+                0.9159756302833557
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                0.9999999403953552
+            ],
+            "camera": 0,
+            "name": "render_camera_n3d"
+        },
+        {
+            "translation": [
+                9.441375254937157e-7,
+                -0.05593977868556976,
+                0.00003890991865773685
+            ],
+            "scale": [
+                0.3801102936267853,
+                1.0817179679870606,
+                0.3061254024505615
+            ],
+            "mesh": 0,
+            "name": "Splash"
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                1
+            ],
+            "name": "scene"
+        }
+    ],
+    "scene": 0
+}

@@ -1,0 +1,304 @@
+{
+    "asset": {
+        "copyright": "2020 (c) Adobe Inc.",
+        "generator": "Adobe Dimension - 20b96ed1944f99fd310aada6a21defae413bc238",
+        "version": "2.0"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 4509,
+            "type": "VEC3",
+            "max": [
+                0.0010763779282569886,
+                0.00016987771959975362,
+                0.00039002782432362437
+            ],
+            "min": [
+                -0.0010685757733881474,
+                -0.00017253635451197624,
+                -0.0001633427746128291
+            ]
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 4509,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 4509,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5125,
+            "count": 4509,
+            "type": "SCALAR",
+            "max": [
+                4508.0
+            ],
+            "min": [
+                0.0
+            ]
+        },
+        {
+            "bufferView": 4,
+            "componentType": 5126,
+            "count": 2399,
+            "type": "VEC3",
+            "max": [
+                0.09999999403953552,
+                0.19999998807907105,
+                0.09999999403953552
+            ],
+            "min": [
+                -0.09999999403953552,
+                0.0,
+                -0.09999999403953552
+            ]
+        },
+        {
+            "bufferView": 5,
+            "componentType": 5126,
+            "count": 2399,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 6,
+            "componentType": 5126,
+            "count": 2399,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 7,
+            "componentType": 5125,
+            "count": 13536,
+            "type": "SCALAR",
+            "max": [
+                2398.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 54108,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 54108,
+            "byteLength": 54108,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 108216,
+            "byteLength": 36072,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 144288,
+            "byteLength": 18036,
+            "target": 34963
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 162324,
+            "byteLength": 28788,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 191112,
+            "byteLength": 28788,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 219900,
+            "byteLength": 19192,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 239092,
+            "byteLength": 54144,
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 293236,
+            "uri": "Staff_binary.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "perspective": {
+                "znear": 0.000010000000656873454,
+                "yfov": 0.6024156808853149,
+                "zfar": 2.0,
+                "aspectRatio": 1.3333333730697632
+            },
+            "type": "perspective",
+            "name": "render_camera"
+        }
+    ],
+    "images": [
+        {
+            "name": "image2",
+            "uri": "Staff_images\\image2.png",
+            "mimeType": "image/png"
+        },
+        {
+            "name": "ice_normal",
+            "uri": "Staff_images\\ice_normal.png",
+            "mimeType": "image/png"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.25
+                ],
+                "metallicFactor": 0.0,
+                "metallicRoughnessTexture": {
+                    "index": 0
+                }
+            },
+            "normalTexture": {
+                "index": 1
+            },
+            "alphaMode": "BLEND",
+            "name": "Ice 2",
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "stick_03",
+            "primitives": [
+                {
+                    "attributes": {
+                        "NORMAL": 1,
+                        "POSITION": 0,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 3,
+                    "material": 0
+                }
+            ]
+        },
+        {
+            "name": "PROCEDURAL_MESHES_SPHERE#",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 4,
+                        "NORMAL": 5,
+                        "TEXCOORD_0": 6
+                    },
+                    "indices": 7,
+                    "material": 0
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "translation": [
+                0.5936115384101868,
+                0.24785979092121125,
+                0.5079420208930969
+            ],
+            "rotation": [
+                -0.12059047073125839,
+                0.379409521818161,
+                0.04995020851492882,
+                0.9159756302833557
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                0.9999999403953552
+            ],
+            "camera": 0,
+            "name": "render_camera_n3d"
+        },
+        {
+            "translation": [
+                -0.007451686542481184,
+                0.07540734112262726,
+                0.012746378779411316
+            ],
+            "rotation": [
+                0.7071067690849304,
+                3.3027603763002847e-8,
+                0.7071068286895752,
+                -4.217967486397356e-8
+            ],
+            "scale": [
+                150.0,
+                99.99998474121094,
+                99.99998474121094
+            ],
+            "mesh": 0,
+            "name": "stick_03"
+        },
+        {
+            "translation": [
+                -0.006551084574311972,
+                0.0,
+                -0.14920306205749513
+            ],
+            "scale": [
+                0.25,
+                0.7139754295349121,
+                0.25
+            ],
+            "mesh": 1,
+            "name": "Sphere 3"
+        }
+    ],
+    "samplers": [
+        {},
+        {}
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                1,
+                2
+            ],
+            "name": "scene"
+        }
+    ],
+    "textures": [
+        {
+            "name": "image2",
+            "sampler": 0,
+            "source": 0
+        },
+        {
+            "name": "ice_material::normal::image2",
+            "sampler": 1,
+            "source": 1
+        }
+    ],
+    "scene": 0
+}

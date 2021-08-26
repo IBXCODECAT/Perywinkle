@@ -1,0 +1,167 @@
+{
+    "asset": {
+        "copyright": "2020 (c) Adobe Inc.",
+        "generator": "Adobe Dimension - 20b96ed1944f99fd310aada6a21defae413bc238",
+        "version": "2.0"
+    },
+    "accessors": [
+        {
+            "bufferView": 0,
+            "componentType": 5126,
+            "count": 415524,
+            "type": "VEC3",
+            "max": [
+                0.07372859120368958,
+                0.18593022227287293,
+                0.10807449370622635
+            ],
+            "min": [
+                -0.09995080530643463,
+                9.000000034120603e-8,
+                -0.04779044911265373
+            ]
+        },
+        {
+            "bufferView": 1,
+            "componentType": 5126,
+            "count": 415524,
+            "type": "VEC3"
+        },
+        {
+            "bufferView": 2,
+            "componentType": 5126,
+            "count": 415524,
+            "type": "VEC2"
+        },
+        {
+            "bufferView": 3,
+            "componentType": 5125,
+            "count": 415524,
+            "type": "SCALAR",
+            "max": [
+                415523.0
+            ],
+            "min": [
+                0.0
+            ]
+        }
+    ],
+    "bufferViews": [
+        {
+            "buffer": 0,
+            "byteOffset": 0,
+            "byteLength": 4986288,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 4986288,
+            "byteLength": 4986288,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 9972576,
+            "byteLength": 3324192,
+            "target": 34962
+        },
+        {
+            "buffer": 0,
+            "byteOffset": 13296768,
+            "byteLength": 1662096,
+            "target": 34963
+        }
+    ],
+    "buffers": [
+        {
+            "byteLength": 14958864,
+            "uri": "Splash_binary.bin"
+        }
+    ],
+    "cameras": [
+        {
+            "perspective": {
+                "znear": 0.000010000000656873454,
+                "yfov": 0.6024156808853149,
+                "zfar": 2.0,
+                "aspectRatio": 1.3333333730697632
+            },
+            "type": "perspective",
+            "name": "render_camera"
+        }
+    ],
+    "materials": [
+        {
+            "pbrMetallicRoughness": {
+                "baseColorFactor": [
+                    1.0,
+                    1.0,
+                    1.0,
+                    0.25
+                ],
+                "metallicFactor": 0.0,
+                "roughnessFactor": 0.0
+            },
+            "alphaMode": "BLEND",
+            "name": "Water 2",
+            "doubleSided": true
+        }
+    ],
+    "meshes": [
+        {
+            "name": "Splash",
+            "primitives": [
+                {
+                    "attributes": {
+                        "POSITION": 0,
+                        "NORMAL": 1,
+                        "TEXCOORD_0": 2
+                    },
+                    "indices": 3,
+                    "material": 0
+                }
+            ]
+        }
+    ],
+    "nodes": [
+        {
+            "translation": [
+                0.5771623253822327,
+                0.2999998927116394,
+                0.66141277551651
+            ],
+            "rotation": [
+                -0.12059047073125839,
+                0.379409521818161,
+                0.04995020851492882,
+                0.9159756302833557
+            ],
+            "scale": [
+                1.0,
+                1.0,
+                0.9999999403953552
+            ],
+            "camera": 0,
+            "name": "render_camera_n3d"
+        },
+        {
+            "translation": [
+                0.013111109845340252,
+                -9.000000034120603e-8,
+                -0.03014202043414116
+            ],
+            "mesh": 0,
+            "name": "Splash"
+        }
+    ],
+    "scenes": [
+        {
+            "nodes": [
+                0,
+                1
+            ],
+            "name": "scene"
+        }
+    ],
+    "scene": 0
+}
